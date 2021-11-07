@@ -1,0 +1,170 @@
+html, body {
+    margin: 0;
+}
+html {
+    height: auto;
+    scroll-behavior: smooth;
+}
+body {
+    background-color: hotpink;
+    text-align: center;
+    align-items: center;
+}
+.navBar {
+    background-color: lightpink;
+    position: -webkit-sticky;
+	position: sticky;
+	top: 0px;
+}
+body::-webkit-scrollbar {
+    width: .5rem;
+}
+body::-webkit-scrollbar-thumb {
+    background-color: lawngreen;
+}
+body::-webkit-scrollbar-track {
+    background-color: skyblue;
+}
+
+.nav {
+    font-size: 40px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+/* hover over navbar, changes color */
+.nav a:hover {
+    background-color: lightcoral;
+    color: darkorchid;
+}
+/* Responsive layout - when the screen is less than 400px wide,
+makes the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .navBar a {
+        float: none;
+        width: 100%;
+    }
+}
+a {
+    font-family: 'Henny Penny', cursive;
+    color: turquoise;
+    text-decoration: none;
+}
+#title {
+    font-family: 'Playfair Display', serif;
+    color: deepskyblue;
+    font-size: 45px;
+}
+h1 {
+    font-size: 35px;
+}
+li {
+    font-size: 25px;
+}
+/* Portfolio CSS */
+.portfolio {
+    background-color: salmon;
+    font-family: 'Merriweather', serif;
+    color: teal;
+}
+
+/* Slideshow CSS */
+* {box-sizing: border-box}
+.mySlides1, .mySlides2 {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+    min-width: 500px;
+    max-width: 500px;
+    height: auto;
+    position: relative;
+    margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    display: inline-block;
+}
+.prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+}
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+    background-color: #f1f1f1;
+    color: black;
+}
+/* Responsive layout - when the screen is less than 700px wide,
+makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+    .portfolio {
+        flex-direction: column;
+    }
+}
+/* About CSS */
+.aboutMe {
+    background-color: purple;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: greenyellow;
+}
+#skills, #interests, #info, #hobbies, #favorites {
+    list-style-type: none; /* removes bullet points */
+}
+/* Contact CSS */
+.contactMe {
+    background-color: violet;
+    font-family: 'Open Sans', sans-serif;
+    color: aqua;
+    list-style-type: none; /* removes bullet points */
+}
+.contactMe h1 {
+    font-size: 35px;
+}
+.contactMe li {
+    font-size: 25px;
+}
+#socialMedia {
+    font-size: 35px;
+}
+.socialMedia {
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+/* Footer CSS */
+h1, h5 {
+    margin: 0px;
+}
+footer {
+    text-align: center;
+    margin: 0px;
+    background-color: plum;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12px;
+    color: mediumvioletred;
+}
+footer p {
+    margin: 0px;
+}
