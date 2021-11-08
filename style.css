@@ -10,11 +10,12 @@ body {
     text-align: center;
     align-items: center;
 }
-.navBar {
+#navBar {
     background-color: lightpink;
     position: -webkit-sticky;
 	position: sticky;
 	top: 0px;
+    padding: 5px;
 }
 body::-webkit-scrollbar {
     width: .5rem;
@@ -27,8 +28,8 @@ body::-webkit-scrollbar-track {
 }
 
 .nav {
-    font-size: 40px;
-    padding: 30px;
+    font-size: 30px;
+    padding: 0px;
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
@@ -41,7 +42,7 @@ body::-webkit-scrollbar-track {
 /* Responsive layout - when the screen is less than 400px wide,
 makes the navigation links stack on top of each other instead of next to each other */
 @media screen and (max-width: 400px) {
-    .navBar a {
+    #navBar a {
         float: none;
         width: 100%;
     }
@@ -55,6 +56,7 @@ a {
     font-family: 'Playfair Display', serif;
     color: deepskyblue;
     font-size: 45px;
+    padding: 50px;
 }
 h1 {
     font-size: 35px;
@@ -63,7 +65,7 @@ li {
     font-size: 25px;
 }
 /* Portfolio CSS */
-.portfolio {
+#portfolio {
     background-color: salmon;
     font-family: 'Merriweather', serif;
     color: teal;
@@ -122,7 +124,7 @@ makes the two columns stack on top of each other instead of next to each other *
     }
 }
 /* About CSS */
-.aboutMe {
+#aboutMe {
     background-color: purple;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
@@ -132,16 +134,16 @@ makes the two columns stack on top of each other instead of next to each other *
     list-style-type: none; /* removes bullet points */
 }
 /* Contact CSS */
-.contactMe {
+#contactMe {
     background-color: violet;
     font-family: 'Open Sans', sans-serif;
     color: aqua;
     list-style-type: none; /* removes bullet points */
 }
-.contactMe h1 {
+#contactMe h1 {
     font-size: 35px;
 }
-.contactMe li {
+#contactMe li {
     font-size: 25px;
 }
 #socialMedia {
