@@ -6,12 +6,12 @@ html {
     scroll-behavior: smooth;
 }
 body {
-    background-color: hotpink;
+    background-color: #C2CAD0;
     text-align: center;
     align-items: center;
 }
 #navBar {
-    background-color: lightpink;
+    background-color: #E7717D;
     position: -webkit-sticky;
 	position: sticky;
 	top: 0px;
@@ -21,10 +21,10 @@ body::-webkit-scrollbar {
     width: .5rem;
 }
 body::-webkit-scrollbar-thumb {
-    background-color: lawngreen;
+    background-color: black;
 }
 body::-webkit-scrollbar-track {
-    background-color: skyblue;
+    background-color: gray;
 }
 
 .nav {
@@ -36,8 +36,8 @@ body::-webkit-scrollbar-track {
 }
 /* hover over navbar, changes color */
 .nav a:hover {
-    background-color: lightcoral;
-    color: darkorchid;
+    background-color: yellowgreen;
+    color: orangered;
 }
 /* Responsive layout - when the screen is less than 400px wide,
 makes the navigation links stack on top of each other instead of next to each other */
@@ -49,12 +49,12 @@ makes the navigation links stack on top of each other instead of next to each ot
 }
 a {
     font-family: 'Henny Penny', cursive;
-    color: turquoise;
+    color: white;
     text-decoration: none;
 }
 #title {
     font-family: 'Playfair Display', serif;
-    color: deepskyblue;
+    color: white;
     font-size: 45px;
     padding: 50px;
 }
@@ -64,11 +64,21 @@ h1 {
 li {
     font-size: 25px;
 }
+/* About CSS */
+#aboutMe {
+    background-color: #C2B9B0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+#skills, #interests, #info, #hobbies, #favorites {
+    list-style-type: none; /* removes bullet points */
+}
 /* Portfolio CSS */
 #portfolio {
-    background-color: salmon;
+    background-color: #7E685A;
     font-family: 'Merriweather', serif;
-    color: teal;
+    color: white;
 }
 
 /* Slideshow CSS */
@@ -113,7 +123,7 @@ img {vertical-align: middle;}
 
 /* On hover, add a grey background color */
 .prev:hover, .next:hover {
-    background-color: #f1f1f1;
+    background-color: #F1F1F1;
     color: black;
 }
 /* Responsive layout - when the screen is less than 700px wide,
@@ -123,21 +133,11 @@ makes the two columns stack on top of each other instead of next to each other *
         flex-direction: column;
     }
 }
-/* About CSS */
-#aboutMe {
-    background-color: purple;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    color: greenyellow;
-}
-#skills, #interests, #info, #hobbies, #favorites {
-    list-style-type: none; /* removes bullet points */
-}
 /* Contact CSS */
 #contactMe {
-    background-color: violet;
+    background-color: #AFD275;
     font-family: 'Open Sans', sans-serif;
-    color: aqua;
+    color: white;
     list-style-type: none; /* removes bullet points */
 }
 #contactMe h1 {
@@ -162,10 +162,10 @@ h1, h5 {
 footer {
     text-align: center;
     margin: 0px;
-    background-color: plum;
+    background-color: black;
     font-family: 'Quicksand', sans-serif;
     font-size: 12px;
-    color: mediumvioletred;
+    color: white;
 }
 footer p {
     margin: 0px;
